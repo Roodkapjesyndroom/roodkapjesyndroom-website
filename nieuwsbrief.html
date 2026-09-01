@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nieuwsbrief — De wolf, de mens en het Roodkapjesyndroom</title>
+<meta name="description" content="Schrijf u in voor de nieuwsbrief van Marc van der Sterren en volg de vorderingen van het boek 'De wolf, de mens en het Roodkapjesyndroom'.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      De wolf, de mens &amp; het Roodkapjesyndroom
+      <small>Marc van der Sterren</small>
+    </a>
+    <nav class="main-nav" aria-label="Hoofdnavigatie">
+      <a href="index.html">Home</a>
+      <a href="over.html">Over</a>
+      <a href="nieuwsbrief.html" aria-current="page">Nieuwsbrief</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn" href="https://blue-baboon.email-provider.eu/memberforms/subscribe/standalone/form/?a=xhyaluatb2&amp;l=hr0wisoywk">Abonneer u op de Nieuwsbrief</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="min-height:0;">
+    <div class="newsletter-hero">
+      <div class="wrap">
+        <svg class="moon-rule" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="20" fill="#d9611f" opacity="0.85"/>
+          <path d="M24 6 L27 20 L38 22 L27 27 L24 41 L21 27 L10 22 L21 20 Z" fill="#120505" opacity="0.55"/>
+        </svg>
+        <span class="hero-eyebrow">Blijf op de hoogte</span>
+        <h1>Ontvang de nieuwsbrief</h1>
+        <p>Met deze nieuwsbrief houd ik u met enige regelmaat op de hoogte van de vorderingen van het boek, van interessante wetenswaardigheden en wanneer er een lezing is.</p>
+        <p>Inschrijven is heel makkelijk: klik op de knop hieronder. Twijfel niet, want uitschrijven is al even eenvoudig: via een link onderin de nieuwsbrief.</p>
+        <a class="btn btn-large" href="https://blue-baboon.email-provider.eu/memberforms/subscribe/standalone/form/?a=xhyaluatb2&amp;l=hr0wisoywk">Abonneer u op de Nieuwsbrief</a>
+        <a class="fine-link" href="https://blue-baboon.email-provider.eu/web/xhyaluatb2/ulbtoklrq3">Eerdere nieuwsbrieven bekijken</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="wrap">
+      <div class="content-grid">
+        <div class="content-copy">
+          <h2>Waarom u zich zou willen inschrijven</h2>
+          <p>Het onderzoek naar mythes, sagen en volksverhalen over de wolf in Nederland en Vlaanderen groeit iedere week. Via de nieuwsbrief deelt Marc van der Sterren de meest opvallende vondsten uit de archieven van heemkundeverenigingen, de voortgang van het manuscript, en de eerste aankondigingen van lezingen — voordat ze ergens anders verschijnen.</p>
+        </div>
+        <div class="content-figure">
+          <img class="framed" src="assets/wolf-plush-2.webp" alt="Knuffelwolf, symbool voor de spanning tussen mythe en werkelijkheid rond de wolf in Nederland.">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<section class="cta-band">
+  <div class="cta-band-inner">
+    <h2>Eén klik, en u mist niets</h2>
+    <p>Schrijf u vandaag nog in — uitschrijven kan altijd, met één link onderin elke nieuwsbrief.</p>
+    <a class="btn btn-large" href="https://blue-baboon.email-provider.eu/memberforms/subscribe/standalone/form/?a=xhyaluatb2&amp;l=hr0wisoywk">Abonneer u op de Nieuwsbrief</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="footer-meta">&copy; Marc van der Sterren — De wolf, de mens en het Roodkapjesyndroom</span>
+    <nav class="footer-nav" aria-label="Footer navigatie">
+      <a href="index.html">Home</a>
+      <a href="over.html">Over</a>
+      <a href="nieuwsbrief.html">Nieuwsbrief</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const header = document.getElementById('siteHeader');
+  toggle.addEventListener('click', () => {
+    const open = header.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+</script>
+
+</body>
+</html>
